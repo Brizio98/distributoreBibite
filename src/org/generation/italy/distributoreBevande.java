@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 public class distributoreBevande {
 	private HashMap<String, Float> bevanda;
-	float credito;
+	private float credito;
 
 
 	public  distributoreBevande(HashMap<String, Float> bevanda) {
