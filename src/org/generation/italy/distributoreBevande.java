@@ -6,13 +6,10 @@ import java.util.HashMap;
 
 public class distributoreBevande {
 	private HashMap<String, Float> bevanda;
-	private float credito;
+	float credito;
 
-	public distributoreBevande(HashMap<String, Float> listaBevanda) {
-		// TODO Auto-generated constructor stub
-	}
 
-	public void distributore(HashMap<String, Float> bevanda) {
+	public  distributoreBevande(HashMap<String, Float> bevanda) {
 		this.bevanda = bevanda;
 		this.credito = 0;
 

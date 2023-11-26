@@ -32,9 +32,12 @@ public class Main {
 	System.out.println("che bevanda vuoi? ");
 	bevscelta=sc.nextLine();
 	
-		if (listaBevanda.containsKey(bevscelta))
+		if (listaBevanda.containsKey(bevscelta)) {
 			distributore.erogaBevanda(bevscelta);
-		
+		}else {
+            System.out.println("Bevanda non disponibile.");
+        }
+
 		
 	
 		
